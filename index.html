@@ -7,18 +7,29 @@
     <title>Smart Control</title>
 </head>
 <body>
+    <img src="assets/images/download.png" alt="imagem logo">
     <h1>BEM VINDO!!</h1>
-    <form action="dashboard.html" method="get"></form>
+    <form action="dashboard.html" method="get">
+
+        <label for="nome_completo">Nome Completo</label>
+        <input type="text" name= "nome_completo" id= "nome_completo" placeholder="67" required><br><br>
+
         <label for="e_mail">E-mail</label>
-        <input type="text" name= "e_mail" id= "e_mail" placeholder="67" required>
+        <input type="email" name= "e_mail" id= "e_mail" placeholder="67" required><br><br>
 
         <label for="senha">Senha</label>
-        <input type="password" name= "senha" id= "senha" placeholder="67" required>
+        <input type="password" name= "senha" id= "senha" placeholder="67" minlength="8" required><br><br>
 
         <input type="checkbox" name="lembrar" id="lembrar">
-        <label for="lembrar">Lembrar-me</label>
+        <label for="lembrar">Lembrar-me</label><br><br>
 
-        <button type="submit">Entrar</button>
+        <button type="submit" name="login">Entrar</button><br><br>
+
     </form>
+
+    <form action="cadastro.html" method="get">
+        <button type="submit" name="cadastro">fazer cadastro</button>
+    </form>
+
 </body>
 </html>
