@@ -7,6 +7,7 @@
 
 }
 
+
 body{
     background-color: #202A42;
     
@@ -321,6 +322,99 @@ button[type="submit"] {
 }
 
 @media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+
+        
+        
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .cabecalho {
+        height: 80px
+    }
+
+    .tipos {
+        height: 200px;
+    }
+
+    #moto_grafico {
+        height: 80px;
+    }
+
+    #carro_grafico {
+        height: 120px;
+    }
+
+    #bmw_grafico {
+        height: 40px
+    }
+
+    #toyota_grafico {
+        height: 80px
+    }
+
+    #volkswagen_grafico {
+        height: 120px;
+    }
+
+    #honda_grafico {
+        height: 100px;
+    }
+
+    #x6_grafico {
+        height: 40px;
+
+    }
+    
+
+    #civic_grafico {
+        height: 80px;
+
+    }
+
+    #corolla_grafico {
+        height: 120px;
+    }
+
+    #jetta_grafico {
+        height: 100px;
+    }
+
+    #adv_grafico {
+        height: 40px;
+    }
+
+    #pop_grafico {
+        height: 80px;
+    }
+
+    #cg_grafico {
+        height: 120px;
+    }
+
+    #gs_grafico {
+        height: 160px;
+    }
+
+    button[type="submit"] {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    iframe {
+        height: 300px;
+        width: 300px;
+    }
+
+    [src="assets/images/cardapio.png"] {
+        width: 30px;
+        height: 30px;
+    }
 
 }
 

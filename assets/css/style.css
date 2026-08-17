@@ -107,5 +107,12 @@ button[type="submit"] {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 
 
