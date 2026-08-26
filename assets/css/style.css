@@ -114,5 +114,14 @@ button[type="submit"] {
     }
 }
 
+#bem-vindo {
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 1.5rem;
+    
+}
+
 
 
