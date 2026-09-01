@@ -14,3 +14,14 @@ setInterval(() => {
     bemVindoElement.innerHTML = `Bem-vindo, ${nome} ${sobrenome}! Hoje é  ${semana[new Date().getDay()]}, ${data} - ${horas} (-${fuso_horario}:00)`
 }, 3*1000)
 
+const campoBusca = document.querySelector ('#campo_busca')
+campoBusca.addEventListener('input', (evento) => {
+    const valorBusca = evento.target.value
+    console.log(valorBusca)
+})
+
+
+const btnTema = document.querySelector('#btn-temas');
+btnTema.addEventListener("click", function (){
+    document.body.classList.toggle("modo-escuro")
+});

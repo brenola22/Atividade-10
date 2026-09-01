@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="assets/css/dashboard.css">
 </head>
 <body>
-    <div class="cabecalho">
-        <!--<img src="assets/images/download (1).png" alt="imagem logo">-->
-        
-        <img src="assets/images/cardapio.png" alt="menu">
-        <h1>GERENCIAMENTO DE VENDAS</h1>
-    </div>
+    <nav></nav>
+        <div class="cabecalho">
+            <img src="assets/images/cardapio.png" alt="menu">
+            <h1>GERENCIAMENTO DE VENDAS</h1>
+            <div class="btn"></div>
+                <input id="btn-temas" type="button" value="Alterar tema" onclick="toggleView(this)">
+            </div>
+        </div>
+    </nav>
     
 
     <div class="container">
+        <input type="text" id="campo_busca" placeholder="pesquise">
             
-
         <div class="veiculo">
             <li><a href="veiculo-mais-vendido">
                 <h3>Veículo mais vendido</h3>

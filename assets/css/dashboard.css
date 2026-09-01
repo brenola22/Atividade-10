@@ -418,3 +418,16 @@ button[type="submit"] {
 
 }
 
+#campo_busca {
+    height: 50px;
+    width: 100px;
+    
+}
+
+body.modo-escuro {
+    background-color: black;
+}
+
+body.modo-escuro .cabecalho {
+    background-color: chartreuse;
+}
