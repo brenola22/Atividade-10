@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #202A42;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 90px; 
+    width: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 60px; 
+}
+
+.card {
+    background-color: #606796; 
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nome, .cep {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #f0f0f0;
+    letter-spacing: 0.5px;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #5a3c2e;
+    padding: 12px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: white; 
+    color: rgb(0, 0, 0); 
+}
+
+
+
+.termos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.termos label {
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.termos input[type="checkbox"] {
+    width: auto;
+    cursor: pointer;
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color:  white;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e6e6cc;
+}

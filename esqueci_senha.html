@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/esqueci_senha.css">
     <title>Esqueci minha senha</title>
 </head>
 <body>
     <div class="container">
         <form action="index.html" method="get"></form>
-        <h1>Esqueceu sua senha?</h1>
-        <h3>Redefina a sua senha</h3>
+    
         
+        <div class="card">
+            <h3>Redefina a sua senha</h3><br><br>
+            <label for="e_mail">DIGITE SEU E-MAIL</label><br>
+            <input type="email" name="e_mail" id="e_mail" placeholder="67" required><br><br>
 
-        <label for="e_mail">Digite seu e-mail</label>
-        <input type="email" name="e_mail" id="e_mail" placeholder="67" required>
+            <label for="senha_nova">DIGITE SUA SENHA NOVA</label><br>
+            <input type="text" name="senha_nova" id="senha_nova" placeholder="22157" required><br><br>
 
-        <label for="senha_nova">Digite sua senha nova</label>
-        <input type="text" name="senha_nova" id="senha_nova" placeholder="22157" required>
+            <label for="senha_nova">CONFIRME A SENHA</label><br>
+            <input type="password" name="senha_nova" id="senha_nova" placeholder="22157" required><br><br>
 
-        <label for="senha_nova">Confirme a senha</label>
-        <input type="password" name="senha_nova" id="senha_nova" placeholder="22157" required>
-
-        <a href="index.html"><button>REDEFINIR</button></a>
+            <a href="index.html"><button id="btn">REDEFINIR</button></a>
+        </div>
 
     </div>
 
 
-    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
 </body>
 </html>
