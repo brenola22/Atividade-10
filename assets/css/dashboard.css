@@ -503,10 +503,11 @@ body.modo-escuro {
 }
 
 body.modo-escuro .cabecalho {
-    background-color: chartreuse;
+    background-color: rgb(73, 73, 73);
 }
 
 #bem-vindo {
     color: white;
     font-weight: bold;
 }
+
